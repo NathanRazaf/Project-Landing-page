@@ -55,7 +55,7 @@ body {
     background-color: rgb(83, 83, 83);
 }
 
-.title {
+.bottom .title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
@@ -66,7 +66,7 @@ body {
     font-size: 18px;
 }
 
-.sign-up {
+.left .sign-up {
     align-self: flex-start;
     font-size: 18px;
     padding-left: 30px;
@@ -78,4 +78,120 @@ body {
     border-radius: 8px;
     color: #f9faf8;
     border-color: none;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.information .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 20px;
+}
+    
+
+.randoms {
+    display: flex;
+    justify-content: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    min-width: 50px;
+    padding: 20px;
+}
+
+.group .subtext {
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    padding: 5px;
+}
+
+.group .image {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    border: 3px solid #3882f6 ;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 80px;
+    padding-left: 250px;
+    padding-right: 250px;    
+}
+
+.quote .text {
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote .author {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.action {
+    background-color: #3882f6;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 7px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.action .sign-up {
+    border: 2px solid #e5e7eb;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.action .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action .text .title {
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 50px;
 }
